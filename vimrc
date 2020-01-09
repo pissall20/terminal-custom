@@ -100,10 +100,9 @@ set undofile
 set fileencoding=utf-8
 set directory=~/.scratch/vim/swap,.vim/swap,.,~/tmp,/var/tmp,/tmp
 
-set clipboard=unnamedplus
+set clipboard=unnamed
 set mouse=a
 let mapleader = "\<Space>"
-
 set updatetime=100
 set signcolumn=yes
 set relativenumber
