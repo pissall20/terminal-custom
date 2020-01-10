@@ -24,3 +24,5 @@ rm -rf fonts
 
 cp zshrc ~/.zshrc
 source ~/.zshrc
+cp vimrc ~/.vimrc
+

@@ -29,21 +29,17 @@ antigen bundle colorize
 
 
 # external plugins
-antigen bundle zpm-zsh/colorize
-antigen bundle dbz/kube-aliases
-antigen bundle zpm-zsh/ls.git
 antigen bundle bossjones/boss-git-zsh-plugin
-antigen bundle b4b4r07/enhancd
-antigen bundle webyneter/docker-aliases.git
 antigen bundle joel-porquet/zsh-dircolors-solarized.git
 antigen bundle unixorn/autoupdate-antigen.zshplugin
 antigen bundle zsh-users/zsh-autosuggestions
 antigen bundle unixorn/git-extra-commands
 antigen bundle chrissicool/zsh-256color
 antigen bundle psprint/zsh-navigation-tools
-antigen bundle desyncr/auto-ls
 antigen bundle MichaelAquilina/zsh-you-should-use
 antigen bundle zsh-users/zsh-syntax-highlighting # must be last plugin to get effect
+
+# Powerlevel9k settings
 
 
 # theme
