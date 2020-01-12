@@ -41,6 +41,26 @@ antigen bundle zsh-users/zsh-syntax-highlighting # must be last plugin to get ef
 
 # Powerlevel9k settings
 
+# Plugin configuration that goes before initialization
+POWERLEVEL9K_MODE='nerdfont-complete'
+#P9K_PROMPT_ADD_NEWLINE=true
+POWERLEVEL9K_PROMPT_ON_NEWLINE=true
+POWERLEVEL9K_VCS_SHOW_SUBMODULE_DIRTY=false
+POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=( \
+  # operating environment
+  os_icon root_indicator context dir vcs \
+  # runtime environment
+  background_jobs status \
+  )
+POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=( \
+  go_version \
+  node_version \
+  pyenv \
+)
+
+P9K_VI_MODE_INSERT_STRING='I'
+# I'm not interested in knowing `whoami`
+DEFAULT_USER="$(whoami)"
 
 # theme
 POWERLEVEL9K_INSTALLATION_PATH=$ANTIGEN_BUNDLES/bhilburn/powerlevel9k
